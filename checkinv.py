@@ -7,7 +7,7 @@ init(convert=True)
 os.system("mode con cols=150 lines=50")
 os.system('color 2')
 PATH = 'D:\chromedriver.exe'
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/909207631804129312/ZISomNtygU4mCte_EAs6S_YOslfPt2u3yf_ZfI9EKX4ZpnnV-Ntx2CYjEDnG5h7SZTa3"
+DISCORD_WEBHOOK_URL = "WEBHOOK_IDE"
 driver = webdriver.Chrome(PATH) 
 driver.maximize_window()
 driver.get('https://discord.com/widget?id=601496163023323137&theme=dark')
